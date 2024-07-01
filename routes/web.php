@@ -18,6 +18,10 @@ use App\Http\Controllers\LineWebhookController;
 
 require __DIR__.'/api.php';
 
+Route::get('/', function () {
+    return view('home');
+})->name('index');
+
 Route::get('/login', function () {
     return view('login');
 })->name('login');
@@ -48,5 +52,7 @@ Route::get('/Remotecontrol-2', function () {
 Route::get('/Remotecontrol-3', function () {
     return view('Remotecontrol-3');
 })->name('Remotecontrol-3');
+
 Route::get('raspi/sensor/index', [SensorController::class, 'index']);
+Route::post('raspi/sensor/store', [SensorController::class, 'store']);
 Route::post('/line/webhook', [LineWebhookController::class, 'handle']);
