@@ -20,14 +20,6 @@
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/5">
-    <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.a32d69e7.js">
-    <link rel="preload" as="style" href="/_nuxt/entry.cbb71623.css">
-    <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/close_circle.c7480f3c.svg">
-    <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/round_check.0ebac23f.svg">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/LottieRenderer.81156164.js">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.98e755a8.js">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.fd97a95f.js">
-    <link rel="stylesheet" href="/_nuxt/entry.cbb71623.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .page-enter-active {
@@ -1236,7 +1228,6 @@
             margin: 30px
         }
     </style>
-    <link href="chrome-extension://accllpimnoffllpeblphooameaofhnah/css/content.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Lato%3A400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Permanent+Marker%3A400" rel="stylesheet">
     <style id="fontawesome-styles">
@@ -2047,7 +2038,6 @@
             }
         }
     </script>
-    <script type="module" src="/_nuxt/entry.a32d69e7.js" crossorigin=""></script>
     <deepl-input-controller></deepl-input-controller>
 </body>
 <div style="all: initial !important;"></div>
@@ -2094,5 +2084,5 @@
         console.log($("#humidity_level").text(level-1));
         }
     });
-    
+
 </script>
