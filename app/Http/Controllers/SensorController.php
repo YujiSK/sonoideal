@@ -8,11 +8,12 @@ use App\Models\Sensor;
 class SensorController extends Controller
 {
     public function index()
-	{
-		$sensor_data = Sensor::orderBy('created_at', 'desc')->take(10)->get();
-    		return view('raspi.sensor.index', ['sensor_data' => $sensor_data]);
+    {
+        $sensor_data = Sensor::orderBy('created_at', 'desc')->take(10)->get();
+        return view('raspi.sensor.index', ['sensor_data' => $sensor_data]);
     }
 
+<<<<<<< HEAD
 	public function store(Request $request)
     {
         try {
@@ -28,3 +29,15 @@ class SensorController extends Controller
         return response()->json(['message' => 'Data saved successfully'], 200);
     }
 }
+=======
+    public function store(Request $request)
+    {
+        $sensorData = new Sensor;
+        $sensorData->temperature = $request->temperature;
+        $sensorData->humidity = $request->humidity;
+        $sensorData->save();
+
+        return response()->json(['message' => 'Data saved successfully'], 200);
+    }
+}
+>>>>>>> 33654f50d1e22d55cacb5a2c66c3ec2862b24a05
