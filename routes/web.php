@@ -31,9 +31,9 @@ Route::get('/newlogin', function () {
 Route::get('/login-2', function () {
     return view('login-2');
 })->name('login-2');
-Route::get('/home', function () {
-    return view('home');
-})->name('home');
+
+Route::get('/home', [SensorController::class, 'home'])->name('home');
+
 Route::get('/manualcontrol', function () {
     return view('manualcontrol');
 })->name('manualcontrol');
