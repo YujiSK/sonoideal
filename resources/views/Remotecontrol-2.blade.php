@@ -1338,8 +1338,8 @@
                             flex-wrap: nowrap;
                             height: 846px;
                             justify-content: center;
-                            width: 100%;
                             margin: 0px 0px 0px 0px;
+                            width: 100%;
                             max-width: 100%;
                         }
                     }
@@ -1473,36 +1473,36 @@
                     }
 
                     .sd[data-s-861a1f03-8cde-4784-b184-223fa295cd5a] {
-                        width: auto;
-                        height: auto;
+                        color: #333;
                         font-family: var(--s-font-209a6c7b);
                         font-size: 20px;
                         font-weight: 400;
+                        height: auto;
                         line-height: 1.4;
                         text-align: left;
-                        color: #333;
+                        width: auto;
                         max-width: 100%;
                         justify-content: flex-start;
                     }
 
                     @media screen and (max-width: 480px) {
                         .sd[data-s-861a1f03-8cde-4784-b184-223fa295cd5a] {
-                            font-size: 18px;
                             color: #ffffff;
+                            font-size: 18px;
                             text-align: center;
                             justify-content: center;
                         }
                     }
 
                     .sd[data-s-44f63b87-0e16-4339-a8de-7e27abda0bb6] {
-                        width: auto;
-                        height: auto;
+                        color: #333;
                         font-family: var(--s-font-209a6c7b);
                         font-size: 20px;
-                        line-height: 1.4;
                         font-weight: 400;
+                        height: auto;
+                        line-height: 1.4;
                         text-align: center;
-                        color: #333;
+                        width: auto;
                         max-width: 100%;
                         justify-content: center;
                     }
@@ -1521,7 +1521,7 @@
                         <div data-s-36ef1b7c-83a9-41a0-97e2-a691be7dbdb8="" class="sd appear">
                             <div data-s-06b22774-8321-47fa-96be-4039ca0858a2=""
                                 data-r-0_06b22774-8321-47fa-96be-4039ca0858a2="" class="image sd">
-                                <div data-s-92bf5994-f85c-45da-a8a3-8e0ddd84884f="" class="sd appear">
+                                <div data-s-92bf5994-f85c-45da-a8a3-8e0ddd84884f="" class="sd appear"><a
                                         data-s-f6a09ba2-a741-4aa9-8532-2584e4f4ba70=""
                                         data-r-0_0_0_f6a09ba2-a741-4aa9-8532-2584e4f4ba70=""
                                         class="text link sd appear">sono Ideal</a>
@@ -1573,7 +1573,7 @@
             </div><!---->
         </div>
     </div>
-    <script type="application/json" id="__NUXT_DATA__" data-ssr="true">[["Reactive",1],{"data":2,"state":4,"_errors":5,"serverRendered":6,"path":7,"pinia":8},{"dynamicData":3},null,{},{"dynamicData":3},true,"/",{"cmsContentStore":9,"indexStore":14,"projectStore":17,"productStore":26,"pageHeadStore":144},{"referenceMap":10,"listContentsMap":11,"contentMap":12,"clientLoaded":13},["Map"],["Map"],["Map"],false,{"routeType":15,"host":16},"publish","salmon992750.studio.site",{"project":18},{"id":19,"name":20,"type":21,"customDomain":22,"iconImage":22,"coverImage":3,"displayBadge":6,"integrations":23,"snapshot_path":24,"snapshot_id":25,"recaptchaSiteKey":-1},"xmaZvM1kaR","First project","web","",[],"https://storage.googleapis.com/studio-publish/projects/xmaZvM1kaR/QqJ0NbAEWg/","QqJ0NbAEWg",{"product":27,"isLoaded":6,"selectedModalIds":141,"redirectPage":3,"isInitializedRSS":13,"pageViewMap":142,"symbolViewMap":143},{"breakPoints":28,"colors":35,"fonts":36,"head":63,"info":65,"pages":72,"resources":125,"symbols":128,"style":129,"styleVars":131,"enablePassword":13},[29,32],{"maxWidth":30,"name":31},480,"mobile",{"maxWidth":33,"name":34},768,"tablet",[],[37,54,59],{"family":38,"subsets":39,"variants":42,"vendor":53},"Lato",[40,41],"latin","latin-ext",[43,44,45,46,47,48,49,50,51,52],"100","100italic","300","300italic","regular","italic","700","700italic","900","900italic","google",{"family":55,"subsets":56,"variants":58,"vendor":53},"Beau Rivage",[40,41,57],"vietnamese",[47],{"family":60,"subsets":61,"variants":62,"vendor":53},"Permanent Marker",[40],[47],{"favicon":22,"meta":64,"title":22},{"description":22,"og:image":22},{"baseWidth":66,"created_at":67,"screen":68,"type":21,"updated_at":70,"version":71},1280,1518591100346,{"height":69,"isAutoHeight":13,"width":66,"workingState":13},600,1518792996878,"4.1.3",[73,80,85,90,95,100,105,110,115,120],{"head":74,"id":76,"type":77,"uuid":78,"symbolIds":79},{"lang":75,"title":22},"ja","1","page","a4b03344-5a71-489d-9e74-a3b730598206",[],{"head":81,"id":82,"type":77,"uuid":83,"symbolIds":84},{"lang":75,"title":22},"2","3d3bdf57-29fe-4c00-a534-10e5cce26d80",[],{"head":86,"id":87,"type":77,"uuid":88,"symbolIds":89},{"lang":75,"title":22},"3","ca9f1a96-0071-450e-b2bd-7a2bcd1a8fe6",[],{"head":91,"id":92,"type":77,"uuid":93,"symbolIds":94},{"lang":75,"title":22},"4","645f0b24-2c74-42ad-bcaf-a0d30d200be0",[],{"head":96,"id":97,"type":77,"uuid":98,"symbolIds":99},{"lang":75,"title":22},"5","b3b1e7d9-9cf3-4f7e-afff-82f94411023a",[],{"head":101,"id":102,"type":77,"uuid":103,"symbolIds":104},{"lang":75,"title":22},"5-1","d303f906-9f72-4e33-b7f3-77878a627e24",[],{"head":106,"id":107,"type":77,"uuid":108,"symbolIds":109},{"lang":75,"title":22},"5-2","99401c48-d4cf-41b4-a899-5f90caa1373d",[],{"head":111,"id":112,"type":77,"uuid":113,"symbolIds":114},{"lang":75,"title":22},"5-3","4caca999-cb7d-46ac-b767-6425fe27a50d",[],{"head":116,"type":77,"id":117,"uuid":118,"symbolIds":119},{"lang":75,"title":22},"5-5","476b28b0-36d6-47f4-83c3-455b02c6d577",[],{"head":121,"id":122,"type":77,"uuid":123,"symbolIds":124},{"lang":75,"title":22},"5-4","5ecf939c-c154-446e-aa26-880a8b1847b2",[],{"rssList":126,"apiList":127,"cmsProjectId":22},[],[],[],{"fontFamily":130},[],{"fontFamily":132},[133,135,138],{"key":134,"name":22,"value":38},"209a6c7b",{"key":136,"name":22,"value":137},"37a49e23","'Beau Rivage'",{"key":139,"name":22,"value":140},"08aa3cb7","'Permanent Marker'",[],{},["Map"],{"googleFontMap":145,"typesquareLoaded":13},["Map"]]</script>
+    <script type="application/json" id="__NUXT_DATA__" data-ssr="true">[["Reactive",1],{"data":2,"state":4,"_errors":5,"serverRendered":6,"path":7,"pinia":8},{"dynamicData":3},null,{},{"dynamicData":3},true,"/",{"cmsContentStore":9,"indexStore":14,"projectStore":17,"productStore":26,"pageHeadStore":144},{"referenceMap":10,"listContentsMap":11,"contentMap":12,"clientLoaded":13},["Map"],["Map"],["Map"],false,{"routeType":15,"host":16},"publish","salmon992750.studio.site",{"project":18},{"id":19,"name":20,"type":21,"customDomain":22,"iconImage":22,"coverImage":3,"displayBadge":6,"integrations":23,"snapshot_path":24,"snapshot_id":25,"recaptchaSiteKey":-1},"xmaZvM1kaR","First project","web","",[],"https://storage.googleapis.com/studio-publish/projects/xmaZvM1kaR/7Wl699xKqV/","7Wl699xKqV",{"product":27,"isLoaded":6,"selectedModalIds":141,"redirectPage":3,"isInitializedRSS":13,"pageViewMap":142,"symbolViewMap":143},{"breakPoints":28,"colors":35,"fonts":36,"head":63,"info":65,"pages":72,"resources":125,"symbols":128,"style":129,"styleVars":131,"enablePassword":13},[29,32],{"maxWidth":30,"name":31},480,"mobile",{"maxWidth":33,"name":34},768,"tablet",[],[37,54,59],{"family":38,"subsets":39,"variants":42,"vendor":53},"Lato",[40,41],"latin","latin-ext",[43,44,45,46,47,48,49,50,51,52],"100","100italic","300","300italic","regular","italic","700","700italic","900","900italic","google",{"family":55,"subsets":56,"variants":58,"vendor":53},"Beau Rivage",[40,41,57],"vietnamese",[47],{"family":60,"subsets":61,"variants":62,"vendor":53},"Permanent Marker",[40],[47],{"favicon":22,"meta":64,"title":22},{"description":22,"og:image":22},{"baseWidth":66,"created_at":67,"screen":68,"type":21,"updated_at":70,"version":71},1280,1518591100346,{"height":69,"isAutoHeight":13,"width":66,"workingState":13},600,1518792996878,"4.1.3",[73,80,85,90,95,100,105,110,115,120],{"head":74,"id":76,"type":77,"uuid":78,"symbolIds":79},{"lang":75,"title":22},"ja","1","page","a4b03344-5a71-489d-9e74-a3b730598206",[],{"head":81,"id":82,"type":77,"uuid":83,"symbolIds":84},{"lang":75,"title":22},"2","3d3bdf57-29fe-4c00-a534-10e5cce26d80",[],{"head":86,"id":87,"type":77,"uuid":88,"symbolIds":89},{"lang":75,"title":22},"3","ca9f1a96-0071-450e-b2bd-7a2bcd1a8fe6",[],{"head":91,"id":92,"type":77,"uuid":93,"symbolIds":94},{"lang":75,"title":22},"4","645f0b24-2c74-42ad-bcaf-a0d30d200be0",[],{"head":96,"id":97,"type":77,"uuid":98,"symbolIds":99},{"lang":75,"title":22},"5","b3b1e7d9-9cf3-4f7e-afff-82f94411023a",[],{"head":101,"id":102,"type":77,"uuid":103,"symbolIds":104},{"lang":75,"title":22},"5-1","d303f906-9f72-4e33-b7f3-77878a627e24",[],{"head":106,"id":107,"type":77,"uuid":108,"symbolIds":109},{"lang":75,"title":22},"5-2","99401c48-d4cf-41b4-a899-5f90caa1373d",[],{"head":111,"id":112,"type":77,"uuid":113,"symbolIds":114},{"lang":75,"title":22},"5-3","4caca999-cb7d-46ac-b767-6425fe27a50d",[],{"head":116,"id":117,"type":77,"uuid":118,"symbolIds":119},{"lang":75,"title":22},"5-5","476b28b0-36d6-47f4-83c3-455b02c6d577",[],{"head":121,"id":122,"type":77,"uuid":123,"symbolIds":124},{"lang":75,"title":22},"5-4","5ecf939c-c154-446e-aa26-880a8b1847b2",[],{"rssList":126,"apiList":127,"cmsProjectId":22},[],[],[],{"fontFamily":130},[],{"fontFamily":132},[133,135,138],{"key":134,"name":22,"value":38},"209a6c7b",{"key":136,"name":22,"value":137},"37a49e23","'Beau Rivage'",{"key":139,"name":22,"value":140},"08aa3cb7","'Permanent Marker'",[],{},["Map"],{"googleFontMap":145,"typesquareLoaded":13},["Map"]]</script>
     <script>
         window.__NUXT__ = {};
         window.__NUXT__.config = {

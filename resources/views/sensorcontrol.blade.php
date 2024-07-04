@@ -1957,7 +1957,7 @@
                                         <div data-s-319a0464-caf1-4a3f-82d4-f9442d39e83d="" class="sd appear">
                                             <p data-s-1e6eb495-d62c-40e7-9eaf-da965f344120=""
                                                 data-r-0_1_0_3_0_1e6eb495-d62c-40e7-9eaf-da965f344120="" class="text sd appear">
-                                                <span id="temp_level" style="color: #FFFFFF">0</span>℃</p></p>
+                                                <span id="temp_level" style="color: #FFFFFF">26</span>℃</p></p>
                                             <div data-s-d9a9c0d1-bf4c-4638-9f7a-058b2f532788="" class="sd appear"><i
                                                     data-s-dbb8c50c-3389-451c-bc83-653cce35af59="" id="temp_down"
                                                     class="icon material-icons sd appear">keyboard_arrow_down</i></div>
@@ -1973,7 +1973,7 @@
                                         </div>
                                         <p data-s-058da3ac-a7d5-47b7-a15a-c2ce6702ad96=""
                                             data-r-1_1_3_0_058da3ac-a7d5-47b7-a15a-c2ce6702ad96="" class="text sd appear">
-                                            <span id="humidity_level" style="color: #FFFFFF">0</span>％</p>
+                                            <span id="humidity_level" style="color: #FFFFFF">55</span>％</p>
                                         <div data-s-1fd61a9a-5e21-4f18-b2ee-07d1da997a1c="" class="sd appear"><i
                                                 data-s-0dbeb3e5-6573-470e-b478-16d1e45e9a06="" id="humidity_down"
                                                 class="icon material-icons sd appear">keyboard_arrow_down</i></div>
@@ -2066,7 +2066,7 @@
     });
     $("#chevron_left").click(function() {
         level = Number($("#light_level").text());
-        if (level > 100){
+        if (level > 0){
         console.log($("#light_level").text(level-1));
         }
     });
@@ -2084,13 +2084,13 @@
     });
     $("#humidity_up").click(function() {
         level = Number($("#humidity_level").text());
-        if (level < 80){
+        if (level < 60){
         console.log($("#humidity_level").text(level+1));
         }
     });
     $("#humidity_down").click(function() {
         level = Number($("#humidity_level").text());
-        if (level > 10){
+        if (level > 40){
         console.log($("#humidity_level").text(level-1));
         }
     });

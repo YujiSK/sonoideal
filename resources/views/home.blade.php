@@ -1,5 +1,5 @@
 <html lang="ja">
-
+    
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1831,7 +1831,7 @@
                                         <p class="text-white"> {{ now()->format('Y年m月d日');}} <br></p>
                                     <p data-s-b21045d0-935b-4d48-b398-d48887c06796=""
                                         data-r-2_0_0_b21045d0-935b-4d48-b398-d48887c06796="" class="text sd appear">
-                                        温度60℃｜湿度50％</p>
+                                        温度{{ (int)$data['temperature'] }}℃｜湿度{{ (int)$data['humidity'] }}％</p>
                                     <div data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1="" class="sd appear">
                                         <div data-s-f753dbff-6297-4a70-b932-4a46edf09299="" class="sd appear">
                                             <div data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67="" class="sd appear"><i
