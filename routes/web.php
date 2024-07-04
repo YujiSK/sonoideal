@@ -43,9 +43,9 @@ Route::get('/setting', function () {
 Route::get('/sensorcontrol', function () {
     return view('sensorcontrol');
 })->name('sensorcontrol');
-Route::get('/Remotecontrol', function () {
-    return view('Remotecontrol');
-})->name('Remotecontrol');
+Route::get('/Remotecontrol-1', function () {
+    return view('Remotecontrol-1');
+})->name('Remotecontrol-1');
 Route::get('/Remotecontrol-2', function () {
     return view('Remotecontrol-2');
 })->name('Remotecontrol-2');
@@ -53,6 +53,6 @@ Route::get('/Remotecontrol-3', function () {
     return view('Remotecontrol-3');
 })->name('Remotecontrol-3');
 
+Route::get('raspi/csrf', function () {return view('raspi.csrf');})->name('Remotecontrol-3');
 Route::get('raspi/sensor/index', [SensorController::class, 'index']);
-Route::post('raspi/sensor/store', [SensorController::class, 'store']);
 Route::post('/line/webhook', [LineWebhookController::class, 'handle']);

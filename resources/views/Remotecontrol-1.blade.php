@@ -16,10 +16,10 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="">
     <meta name="apple-mobile-web-app-title" content="First project">
-    <meta property="og:url" content="https://salmon992750.studio.site/4">
+    <meta property="og:url" content="https://salmon992750.studio.site/5-3">
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
-    <link rel="canonical" href="https://salmon992750.studio.site/4">
+    <link rel="canonical" href="https://salmon992750.studio.site/5-3">
     <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.a32d69e7.js">
     <link rel="preload" as="style" href="/_nuxt/entry.cbb71623.css">
     <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/close_circle.c7480f3c.svg">
@@ -1023,7 +1023,6 @@
             initial-value: 100%
         }
     </style>
-    <link href="chrome-extension://accllpimnoffllpeblphooameaofhnah/css/content.css" rel="stylesheet" type="text/css">
     <style>
         a[data-v-2a07820f] {
             align-content: center;
@@ -1237,6 +1236,7 @@
             margin: 30px
         }
     </style>
+    <link href="chrome-extension://accllpimnoffllpeblphooameaofhnah/css/content.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Lato%3A400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Permanent+Marker%3A400" rel="stylesheet">
     <style id="fontawesome-styles">
@@ -1302,7 +1302,7 @@
         <div class="">
             <div class="container">
                 <style data-v-52f3f575="">
-                    .sd[data-s-2f7ef5ff-31fb-40f2-969d-8f5a1f268f1e] {
+                    .sd[data-s-4c78eea6-0e68-421f-b225-cfe2876ce045] {
                         background: #fff;
                         border-radius: 0;
                         box-shadow: ;
@@ -1315,47 +1315,46 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-2f7ef5ff-31fb-40f2-969d-8f5a1f268f1e] {
+                        .sd[data-s-4c78eea6-0e68-421f-b225-cfe2876ce045] {
                             align-content: center;
                             align-items: center;
                             flex-direction: column;
                             flex-wrap: nowrap;
-                            justify-content: center;
-                            padding: 0px 0px 0px 0px;
+                            justify-content: flex-start;
                         }
                     }
 
-                    .sd[data-s-1079ebc7-0bea-478b-a7bc-c69be668ca65] {
+                    .sd[data-s-dea2f231-090f-474e-b1c3-5c13f50290de] {
                         height: 300px;
                         width: 200px;
                         max-width: 100%;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-1079ebc7-0bea-478b-a7bc-c69be668ca65] {
+                        .sd[data-s-dea2f231-090f-474e-b1c3-5c13f50290de] {
                             align-content: center;
                             align-items: center;
                             flex-direction: column;
                             flex-wrap: nowrap;
-                            height: 845px;
-                            justify-content: flex-start;
+                            height: 846px;
+                            justify-content: center;
                             width: 100%;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-574f9cb8-0747-4432-8d63-e2780f8b301a] {
+                    .sd[data-s-4c5baf43-f432-43d3-b111-182bfaae9a3b] {
                         background: #EEEEEE;
                         height: 160px;
                         width: 200px;
-                        --gap-uuid: 574f9cb8-0747-4432-8d63-e2780f8b301a;
-                        --gap-h-574f9cb8-0747-4432-8d63-e2780f8b301a: 0px;
-                        --gap-v-574f9cb8-0747-4432-8d63-e2780f8b301a: 0px;
+                        --gap-uuid: 4c5baf43-f432-43d3-b111-182bfaae9a3b;
+                        --gap-h-4c5baf43-f432-43d3-b111-182bfaae9a3b: 0px;
+                        --gap-v-4c5baf43-f432-43d3-b111-182bfaae9a3b: 0px;
                         max-width: 100%;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-574f9cb8-0747-4432-8d63-e2780f8b301a] {
+                        .sd[data-s-4c5baf43-f432-43d3-b111-182bfaae9a3b] {
                             align-content: center;
                             align-items: center;
                             background: rgba(0, 0, 0, 0);
@@ -1364,16 +1363,33 @@
                             flex-direction: column;
                             flex-wrap: nowrap;
                             gap: 0px;
-                            height: 629px;
+                            height: 100%;
                             justify-content: flex-start;
                             width: 100%;
-                            --gap-h-574f9cb8-0747-4432-8d63-e2780f8b301a: 0px;
-                            --gap-v-574f9cb8-0747-4432-8d63-e2780f8b301a: 0px;
+                            --gap-h-4c5baf43-f432-43d3-b111-182bfaae9a3b: 0px;
+                            --gap-v-4c5baf43-f432-43d3-b111-182bfaae9a3b: 0px;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-c650a751-ce3c-4957-b2bb-c90416f8bfe3] {
+                    .sd[data-s-8a8b82fa-b6d4-43b2-b138-06f9346fe055] {
+                        align-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        padding: 0px;
+                    }
+
+                    @media screen and (max-width: 480px) {
+                        .sd[data-s-8a8b82fa-b6d4-43b2-b138-06f9346fe055] {
+                            margin: 30px 0px 0px 0px;
+                            width: 348px;
+                            max-width: 100%;
+                        }
+                    }
+
+                    .sd[data-s-bad1348d-7cf1-4492-9f67-382770262b30] {
                         color: #333;
                         font-family: var(--s-font-209a6c7b);
                         font-size: 20px;
@@ -1387,320 +1403,92 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-c650a751-ce3c-4957-b2bb-c90416f8bfe3] {
+                        .sd[data-s-bad1348d-7cf1-4492-9f67-382770262b30] {
                             color: #e18506;
+                            flex: none;
                             font-family: var(--s-font-08aa3cb7);
-                            font-size: 57px;
-                            margin: 100px 0px 0px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-813130a7-b013-49e4-ab40-923c54f7a71c] {
-                        color: #333;
-                        font-family: var(--s-font-209a6c7b);
-                        font-size: 20px;
-                        font-weight: 400;
-                        height: auto;
-                        line-height: 1.4;
-                        text-align: left;
-                        width: auto;
-                        max-width: 100%;
-                        justify-content: flex-start;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-813130a7-b013-49e4-ab40-923c54f7a71c] {
-                            color: #ffffff;
-                            font-size: 15px;
-                            margin: 10px 0px 0px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-b21045d0-935b-4d48-b398-d48887c06796] {
-                        color: #333;
-                        font-family: var(--s-font-209a6c7b);
-                        font-size: 20px;
-                        font-weight: 400;
-                        height: auto;
-                        line-height: 1.4;
-                        text-align: left;
-                        width: auto;
-                        max-width: 100%;
-                        justify-content: flex-start;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-b21045d0-935b-4d48-b398-d48887c06796] {
-                            color: #ffffff;
-                            font-size: 15px;
-                        }
-                    }
-
-                    .sd[data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                        --gap-uuid: fd116922-4476-4204-9bb0-1d9ef16b40d1;
-                        --gap-h-fd116922-4476-4204-9bb0-1d9ef16b40d1: 0px;
-                        --gap-v-fd116922-4476-4204-9bb0-1d9ef16b40d1: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1] {
-                            gap: 0px;
-                            margin: 200px 0px 0px 0px;
-                            --gap-h-fd116922-4476-4204-9bb0-1d9ef16b40d1: 0px;
-                            --gap-v-fd116922-4476-4204-9bb0-1d9ef16b40d1: 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-f753dbff-6297-4a70-b932-4a46edf09299] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-f753dbff-6297-4a70-b932-4a46edf09299] {
-                            flex-direction: row;
-                            height: 180px;
-                            margin: 0px 5px 0px 0px;
-                            width: 180px;
-                            max-width: calc(100% - 5px);
-                        }
-                    }
-
-                    .sd[data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67] {
-                            margin: 0px 0px 0px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-0278ccc8-f701-4f5d-b528-c6e6d09b94ef] {
-                        font-size: 24px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-0278ccc8-f701-4f5d-b528-c6e6d09b94ef] {
-                            color: rgb(255, 255, 255);
-                            font-size: 95px;
-                        }
-                    }
-
-                    .sd[data-s-a6a9595e-ce3e-4fde-aa8e-fa0aa9f530e9] {
-                        font-size: 24px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-a6a9595e-ce3e-4fde-aa8e-fa0aa9f530e9] {
-                            color: rgb(255, 255, 255);
-                            font-size: 40px;
-                            margin: 10px 0px 0px 50px;
-                            transform: rotate(45deg);
-                            max-width: calc(100% - 50px);
-                        }
-                    }
-
-                    .sd[data-s-6facc88b-8f83-4923-aa78-91e1483d33e3] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-6facc88b-8f83-4923-aa78-91e1483d33e3] {
-                            margin: 80px 0px 0px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-79d32078-2e43-4dc5-9099-9ef738d3d0ac] {
-                        font-size: 24px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-79d32078-2e43-4dc5-9099-9ef738d3d0ac] {
-                            color: rgb(255, 255, 255);
-                            font-size: 40px;
-                            margin: 0px 0px 10px 0px;
-                            transform: rotate(225deg);
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-cf948463-db01-4202-9d50-9a3441ce36d6] {
-                        font-size: 24px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-cf948463-db01-4202-9d50-9a3441ce36d6] {
-                            color: rgb(255, 255, 255);
-                            font-size: 35px;
-                            margin: 0px 0px 25px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-d1f79e10-0558-4183-a655-6cce7710d1ab] {
-                        background: #EEEEEE;
-                        height: 160px;
-                        width: 200px;
-                        max-width: 100%;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-d1f79e10-0558-4183-a655-6cce7710d1ab] {
-                            background: rgba(255, 255, 255, 0.8);
-                            height: 166px;
+                            font-size: 32px;
+                            margin: 0px 160px 0px 0px;
                             padding: 0px;
-                            width: 1px;
-                            margin: 14px 0px 0px 0px;
-                            max-width: 100%;
+                            width: 175px;
+                            max-width: calc(100% - 160px);
                         }
                     }
 
-                    .sd[data-s-7ed8d73f-3fb6-462b-8ad4-079c4ed82e54] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-7ed8d73f-3fb6-462b-8ad4-079c4ed82e54] {
-                            height: 180px;
-                            margin: 0px 0px 0px 0px;
-                            width: 180px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-0601f4e4-d286-4bee-adf2-aece3bf7b076] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-0601f4e4-d286-4bee-adf2-aece3bf7b076] {
-                            height: 162px;
-                            margin: 0px 0px 0px 5px;
-                            max-width: calc(100% - 5px);
-                        }
-                    }
-
-                    .sd[data-s-e8d4bd72-d4f3-4b56-a1c0-352f04175ea6] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-e8d4bd72-d4f3-4b56-a1c0-352f04175ea6] {
-                            margin: 0px 10px 10px 0px;
-                            max-width: calc(100% - 10px);
-                        }
-                    }
-
-                    .sd[data-s-8115fcac-19ea-4c68-bd7e-84c0ea8472f4] {
+                    .sd[data-s-6c9f17aa-15ec-4a49-aa0c-33b896f033f6] {
                         font-size: 24px;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-8115fcac-19ea-4c68-bd7e-84c0ea8472f4] {
+                        .sd[data-s-6c9f17aa-15ec-4a49-aa0c-33b896f033f6] {
+                            border-radius: 6px;
                             color: rgb(255, 255, 255);
-                            font-size: 110px;
-                            width: auto;
-                            max-width: 100%;
+                            font-size: 30px;
+                            padding: 0px;
                         }
                     }
 
-                    .sd[data-s-7c2c4cd6-343c-4e79-8941-4a1c38b35646] {
-                        font-size: 24px;
+                    .sd[data-s-02fefeb1-65f4-4743-a3b9-bbe1b8526fc8] {
+                        color: #333;
+                        font-family: var(--s-font-209a6c7b);
+                        font-size: 20px;
+                        font-weight: 400;
+                        height: auto;
+                        line-height: 1.4;
+                        text-align: left;
+                        width: auto;
+                        max-width: 100%;
+                        justify-content: flex-start;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-7c2c4cd6-343c-4e79-8941-4a1c38b35646] {
-                            color: rgb(255, 255, 255);
-                            font-size: 40px;
-                            margin: 0px 0px 5px 65px;
-                            transform: rotate(45deg);
-                            max-width: calc(100% - 65px);
-                        }
-                    }
-
-                    .sd[data-s-9ff21258-250b-41bf-906d-2172a2791961] {
-                        align-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        flex-wrap: nowrap;
-                        justify-content: center;
-                        padding: 0px;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-9ff21258-250b-41bf-906d-2172a2791961] {
+                        .sd[data-s-02fefeb1-65f4-4743-a3b9-bbe1b8526fc8] {
+                            color: #ffffff;
+                            flex: none;
+                            font-size: 28px;
                             margin: 50px 0px 0px 0px;
+                            width: 359px;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-4de8df47-1aaf-429d-aace-9bb3010d645e] {
-                        font-size: 24px;
+                    .sd[data-s-41594138-e720-409b-aa8c-3f8f3d2815dc] {
+                        height: 2133px;
+                        width: 2400px;
+                        max-width: 100%;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-4de8df47-1aaf-429d-aace-9bb3010d645e] {
-                            color: rgb(255, 255, 255);
-                            font-size: 40px;
-                            margin: 0px 0px 10px 0px;
-                            transform: rotate(225deg);
+                        .sd[data-s-41594138-e720-409b-aa8c-3f8f3d2815dc] {
+                            align-content: flex-end;
+                            align-items: flex-end;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            height: 295px;
+                            justify-content: flex-start;
+                            margin: 45px 0px 145px 0px;
+                            padding: 0px;
+                            width: 345px;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-3ad9208d-77a0-40e6-b978-6c3bb9a11bca] {
-                        font-size: 24px;
+                    .sd[data-s-373b4437-a2c9-47df-988b-078524245e8b] {
+                        height: 200px;
+                        width: 200px;
+                        max-width: 100%;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-3ad9208d-77a0-40e6-b978-6c3bb9a11bca] {
-                            color: rgb(255, 255, 255);
-                            font-size: 40px;
+                        .sd[data-s-373b4437-a2c9-47df-988b-078524245e8b] {
+                            height: 50%;
+                            transform-origin: center center;
+                            width: 123px;
+                            max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-55d25de1-1384-4f11-bb81-641a56805fbe] {
+                    .sd[data-s-6863e396-8836-4c24-9321-7014996056a4] {
                         background: #EEEEEE;
                         height: 160px;
                         width: 200px;
@@ -1708,70 +1496,44 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-55d25de1-1384-4f11-bb81-641a56805fbe] {
-                            background: rgb(255, 255, 255);
+                        .sd[data-s-6863e396-8836-4c24-9321-7014996056a4] {
                             height: 1px;
-                            margin: 10px 0px 0px 0px;
-                            width: 370px;
+                            width: 372px;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-e69f3636-5219-403c-ae24-164e43c92b71] {
-                        flex-direction: row;
-                        padding: 0px;
-                        flex-wrap: nowrap;
-                        align-items: center;
+                    .sd[data-s-ef9d0577-d646-474d-a4c3-5a3ba87f2dc8] {
                         align-content: center;
-                        justify-content: center;
-                    }
-
-                    @media screen and (max-width: 480px) {
-                        .sd[data-s-e69f3636-5219-403c-ae24-164e43c92b71] {
-                            margin: 10px 0px 0px 0px;
-                            max-width: 100%;
-                        }
-                    }
-
-                    .sd[data-s-efb5ba20-e9bb-4069-98fd-f047a2ceaa2e] {
-                        flex-direction: row;
-                        padding: 0px;
-                        flex-wrap: nowrap;
                         align-items: center;
-                        align-content: center;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
                         justify-content: center;
+                        padding: 0px;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-efb5ba20-e9bb-4069-98fd-f047a2ceaa2e] {
-                            margin: 0px 50px 0px 0px;
-                            max-width: calc(100% - 50px);
+                        .sd[data-s-ef9d0577-d646-474d-a4c3-5a3ba87f2dc8] {
+                            border-radius: 0px;
+                            margin: 15px 100px 0px 0px;
+                            max-width: calc(100% - 100px);
                         }
                     }
 
-                    .sd[data-s-629aa4d2-59bb-41ab-b871-3c713c50d2c5] {
-                        color: #333;
-                        font-family: var(--s-font-209a6c7b);
-                        font-size: 20px;
-                        font-weight: 400;
-                        height: auto;
-                        line-height: 1.4;
-                        text-align: left;
-                        width: auto;
-                        max-width: 100%;
-                        justify-content: flex-start;
+                    .sd[data-s-6bf359c4-a58d-4bc4-8700-d5969c56bd0a] {
+                        font-size: 24px;
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-629aa4d2-59bb-41ab-b871-3c713c50d2c5] {
-                            color: #ffffff;
-                            font-size: 20px;
-                            margin: 0px 55px 0px 0px;
-                            max-width: calc(100% - 55px);
+                        .sd[data-s-6bf359c4-a58d-4bc4-8700-d5969c56bd0a] {
+                            color: rgb(255, 255, 255);
+                            font-size: 36px;
+                            margin: 0px 20px 0px 0px;
+                            max-width: calc(100% - 20px);
                         }
                     }
 
-                    .sd[data-s-0bdc6c11-0f71-464f-a5d5-a3215f9fb069] {
+                    .sd[data-s-8cafc3bd-9d3e-4257-8b5b-487e5ae13072] {
                         background: #EEEEEE;
                         height: 160px;
                         width: 200px;
@@ -1779,16 +1541,41 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-0bdc6c11-0f71-464f-a5d5-a3215f9fb069] {
-                            background: rgba(255, 255, 255, 0.8);
-                            height: 40px;
+                        .sd[data-s-8cafc3bd-9d3e-4257-8b5b-487e5ae13072] {
+                            flex: none;
+                            height: 45px;
                             padding: 0px;
                             width: 1px;
                             max-width: 100%;
                         }
                     }
 
-                    .sd[data-s-e5e680b8-5a8b-4e70-8f17-064bc9c8f306] {
+                    .sd[data-s-5b98d860-0818-444d-954c-d64a1b25ff4e] {
+                        align-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        padding: 0px;
+                    }
+
+                    @media screen and (max-width: 480px) {
+                        .sd[data-s-5b98d860-0818-444d-954c-d64a1b25ff4e] {
+                            margin: 0px 0px 0px 100px;
+                            max-width: calc(100% - 100px);
+                        }
+                    }
+
+                    .sd[data-s-4755a42a-90f4-4284-8dd8-445d4cb6ee75] {
+                        align-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        padding: 0px;
+                    }
+
+                    .sd[data-s-43f0d9e6-a48b-4356-ba27-81903e65d159] {
                         color: #333;
                         font-family: var(--s-font-209a6c7b);
                         font-size: 20px;
@@ -1802,10 +1589,22 @@
                     }
 
                     @media screen and (max-width: 480px) {
-                        .sd[data-s-e5e680b8-5a8b-4e70-8f17-064bc9c8f306] {
+                        .sd[data-s-43f0d9e6-a48b-4356-ba27-81903e65d159] {
                             color: #ffffff;
-                            font-size: 20px;
                         }
+                    }
+
+                    .sd[data-s-64fd4d53-47a4-406e-ae54-6b47a566c908] {
+                        color: #333;
+                        font-family: var(--s-font-209a6c7b);
+                        font-size: 20px;
+                        font-weight: 400;
+                        height: auto;
+                        line-height: 1.4;
+                        text-align: center;
+                        width: auto;
+                        max-width: 100%;
+                        justify-content: center;
                     }
                 </style>
                 <style data-v-52f3f575="">
@@ -1819,69 +1618,57 @@
                 <div>
                     <div class="modals"></div>
                     <div class="StudioCanvas" aria-hidden="false">
-                        <div data-s-2f7ef5ff-31fb-40f2-969d-8f5a1f268f1e="" class="sd appear">
-                            <div data-s-1079ebc7-0bea-478b-a7bc-c69be668ca65=""
-                                data-r-0_1079ebc7-0bea-478b-a7bc-c69be668ca65="" class="image sd">
-                                <div data-s-574f9cb8-0747-4432-8d63-e2780f8b301a="" class="sd appear">
-                                    <p data-s-c650a751-ce3c-4957-b2bb-c90416f8bfe3=""
-                                        data-r-0_0_0_c650a751-ce3c-4957-b2bb-c90416f8bfe3="" class="text sd appear">
-                                        sono Ideal</p>
-                                    <p data-s-813130a7-b013-49e4-ab40-923c54f7a71c=""
-                                        data-r-1_0_0_813130a7-b013-49e4-ab40-923c54f7a71c="" class="text sd appear">
-                                        <p class="text-white"> {{ now()->format('Y年m月d日');}} <br></p>
-                                    <p data-s-b21045d0-935b-4d48-b398-d48887c06796=""
-                                        data-r-2_0_0_b21045d0-935b-4d48-b398-d48887c06796="" class="text sd appear">
-                                        温度60℃｜湿度50％</p>
-                                    <div data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1="" class="sd appear">
-                                        <div data-s-f753dbff-6297-4a70-b932-4a46edf09299="" class="sd appear">
-                                            <div data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67="" class="sd appear"><i
-                                                    data-s-0278ccc8-f701-4f5d-b528-c6e6d09b94ef=""
-                                                    class="icon fa-solid fa-house sd appear"></i><i
-                                                    data-s-a6a9595e-ce3e-4fde-aa8e-fa0aa9f530e9=""
-                                                    class="icon material-icons sd appear">call_missed_outgoing</i>
-                                            </div>
-                                            <div data-s-6facc88b-8f83-4923-aa78-91e1483d33e3="" class="sd appear"><i
-                                                    data-s-79d32078-2e43-4dc5-9099-9ef738d3d0ac=""
-                                                    class="icon material-icons sd appear">call_missed_outgoing</i><i
-                                                    data-s-cf948463-db01-4202-9d50-9a3441ce36d6=""
-                                                    class="icon fa-solid fa-mountain-city sd appear"></i></div>
+                        <div data-s-4c78eea6-0e68-421f-b225-cfe2876ce045="" class="sd appear">
+                            <div data-s-dea2f231-090f-474e-b1c3-5c13f50290de=""
+                                data-r-0_dea2f231-090f-474e-b1c3-5c13f50290de="" class="image sd">
+                                <div data-s-4c5baf43-f432-43d3-b111-182bfaae9a3b="" class="sd appear">
+                                    <div data-s-8a8b82fa-b6d4-43b2-b138-06f9346fe055="" class="sd appear"><a
+                                            href="{{ route('home') }}" data-s-bad1348d-7cf1-4492-9f67-382770262b30=""
+                                            data-r-0_0_0_0_bad1348d-7cf1-4492-9f67-382770262b30=""
+                                            class="text link sd appear">sono Ideal</a><a href="{{ route('setting') }}"
+                                            data-s-6c9f17aa-15ec-4a49-aa0c-33b896f033f6=""
+                                            class="icon material-icons link sd appear">settings</a></div>
+                                    <p data-s-02fefeb1-65f4-4743-a3b9-bbe1b8526fc8=""
+                                        data-r-1_0_0_02fefeb1-65f4-4743-a3b9-bbe1b8526fc8="" class="text sd appear">
+                                        リモコン登録<br></p>
+                                    <div data-s-41594138-e720-409b-aa8c-3f8f3d2815dc=""
+                                        data-r-2_0_0_41594138-e720-409b-aa8c-3f8f3d2815dc="" class="image sd">
+                                        <div data-s-373b4437-a2c9-47df-988b-078524245e8b=""
+                                            data-r-0_2_0_0_373b4437-a2c9-47df-988b-078524245e8b="" class="image sd">
+                                            <style>
+                                                .sd[data-r-0_2_0_0_373b4437-a2c9-47df-988b-078524245e8b]:before {
+                                                    background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/xmaZvM1kaR/s-860x860_v-fs_webp_5e69df9b-0e8d-4de3-a32b-da13e3ee81d0_small.webp")
+                                                }
+                                            </style>
                                         </div>
-                                        <div data-s-d1f79e10-0558-4183-a655-6cce7710d1ab="" class="sd appear"></div>
-                                        <div data-s-7ed8d73f-3fb6-462b-8ad4-079c4ed82e54="" class="sd appear">
-                                            <div data-s-0601f4e4-d286-4bee-adf2-aece3bf7b076="" class="sd appear">
-                                                <div data-s-e8d4bd72-d4f3-4b56-a1c0-352f04175ea6="" class="sd appear">
-                                                    <i data-s-8115fcac-19ea-4c68-bd7e-84c0ea8472f4=""
-                                                        class="icon material-icons sd appear">hotel</i><i
-                                                        data-s-7c2c4cd6-343c-4e79-8941-4a1c38b35646=""
-                                                        class="icon material-icons sd appear">call_missed_outgoing</i>
-                                                </div>
-                                                <div data-s-9ff21258-250b-41bf-906d-2172a2791961="" class="sd appear">
-                                                    <i data-s-4de8df47-1aaf-429d-aace-9bb3010d645e=""
-                                                        class="icon material-icons sd appear">call_missed_outgoing</i><i
-                                                        data-s-3ad9208d-77a0-40e6-b978-6c3bb9a11bca=""
-                                                        class="icon material-icons sd appear">directions_run</i></div>
-                                            </div>
-                                        </div>
+                                        <style>
+                                            .sd[data-r-2_0_0_41594138-e720-409b-aa8c-3f8f3d2815dc]:before {
+                                                background-image: url("https://storage.googleapis.com/studio-design-asset-files/projects/xmaZvM1kaR/s-2400x2134_v-frms_webp_a3199133-ab06-44aa-a743-9eb97b706691_middle.webp")
+                                            }
+                                        </style>
                                     </div>
-                                    <div data-s-55d25de1-1384-4f11-bb81-641a56805fbe="" class="sd appear"></div>
-                                    <div data-s-e69f3636-5219-403c-ae24-164e43c92b71="" class="sd appear">
-                                        <div data-s-efb5ba20-e9bb-4069-98fd-f047a2ceaa2e="" class="sd appear"><a
-                                                href="{{ route('manualcontrol') }}" data-s-629aa4d2-59bb-41ab-b871-3c713c50d2c5=""
-                                                data-r-0_0_5_0_0_629aa4d2-59bb-41ab-b871-3c713c50d2c5=""
-                                                class="text link sd appear">手動調整</a>
-                                            <div data-s-0bdc6c11-0f71-464f-a5d5-a3215f9fb069="" class="sd appear">
-                                            </div>
-                                        </div><a href="{{ route('setting') }}" data-s-e5e680b8-5a8b-4e70-8f17-064bc9c8f306=""
-                                            data-r-1_5_0_0_e5e680b8-5a8b-4e70-8f17-064bc9c8f306=""
-                                            class="text link sd appear">詳細設定</a>
+                                    <div data-s-6863e396-8836-4c24-9321-7014996056a4="" class="sd appear"></div>
+                                    <div data-s-ef9d0577-d646-474d-a4c3-5a3ba87f2dc8="" class="sd appear"><a
+                                            href="{{ route('setting') }}" data-s-6bf359c4-a58d-4bc4-8700-d5969c56bd0a=""
+                                            class="icon material-icons link sd appear">arrow_back</a>
+                                        <div data-s-8cafc3bd-9d3e-4257-8b5b-487e5ae13072="" class="sd appear"></div>
+                                        <div data-s-5b98d860-0818-444d-954c-d64a1b25ff4e="" class="sd appear"><a
+                                                href="{{ route('Remotecontrol-2') }}" data-s-4755a42a-90f4-4284-8dd8-445d4cb6ee75=""
+                                                class="link sd appear">
+                                                <p data-s-43f0d9e6-a48b-4356-ba27-81903e65d159=""
+                                                    data-r-0_0_2_4_0_0_43f0d9e6-a48b-4356-ba27-81903e65d159=""
+                                                    class="text sd appear">　登録開始<br></p>
+                                            </a></div>
                                     </div>
                                 </div>
                                 <style>
-                                    .sd[data-r-0_1079ebc7-0bea-478b-a7bc-c69be668ca65]:before {
+                                    .sd[data-r-0_dea2f231-090f-474e-b1c3-5c13f50290de]:before {
                                         background-image: url("https://images.unsplash.com/photo-1506305269769-53a5714a93be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MjF8fG5pZ2h0fGVufDB8fHx8MTcxODg3MjExNHww&ixlib=rb-4.0.3&q=80&w=1080")
                                     }
                                 </style>
                             </div>
+                            <p data-s-64fd4d53-47a4-406e-ae54-6b47a566c908=""
+                                data-r-1_64fd4d53-47a4-406e-ae54-6b47a566c908="" class="text sd appear"></p>
                         </div>
                         <div data-v-4b268d44="" class="product-font-style">
                             <style data-v-4b268d44=""></style>
@@ -1898,7 +1685,7 @@
             </div><!---->
         </div>
     </div>
-    <script type="application/json" id="__NUXT_DATA__" data-ssr="true">[["Reactive",1],{"data":2,"state":4,"_errors":5,"serverRendered":6,"path":7,"pinia":8},{"dynamicData":3},null,{},{"dynamicData":3},true,"/",{"cmsContentStore":9,"indexStore":14,"projectStore":17,"productStore":26,"pageHeadStore":144},{"referenceMap":10,"listContentsMap":11,"contentMap":12,"clientLoaded":13},["Map"],["Map"],["Map"],false,{"routeType":15,"host":16},"publish","salmon992750.studio.site",{"project":18},{"id":19,"name":20,"type":21,"customDomain":22,"iconImage":22,"coverImage":3,"displayBadge":6,"integrations":23,"snapshot_path":24,"snapshot_id":25,"recaptchaSiteKey":-1},"xmaZvM1kaR","First project","web","",[],"https://storage.googleapis.com/studio-publish/projects/xmaZvM1kaR/6aoV9ZrmqR/","6aoV9ZrmqR",{"product":27,"isLoaded":6,"selectedModalIds":141,"redirectPage":3,"isInitializedRSS":13,"pageViewMap":142,"symbolViewMap":143},{"breakPoints":28,"colors":35,"fonts":36,"head":63,"info":65,"pages":72,"resources":125,"symbols":128,"style":129,"styleVars":131,"enablePassword":13},[29,32],{"maxWidth":30,"name":31},480,"mobile",{"maxWidth":33,"name":34},768,"tablet",[],[37,54,59],{"family":38,"subsets":39,"variants":42,"vendor":53},"Lato",[40,41],"latin","latin-ext",[43,44,45,46,47,48,49,50,51,52],"100","100italic","300","300italic","regular","italic","700","700italic","900","900italic","google",{"family":55,"subsets":56,"variants":58,"vendor":53},"Beau Rivage",[40,41,57],"vietnamese",[47],{"family":60,"subsets":61,"variants":62,"vendor":53},"Permanent Marker",[40],[47],{"favicon":22,"meta":64,"title":22},{"description":22,"og:image":22},{"baseWidth":66,"created_at":67,"screen":68,"type":21,"updated_at":70,"version":71},1280,1518591100346,{"height":69,"isAutoHeight":13,"width":66,"workingState":13},600,1518792996878,"4.1.3",[73,80,85,90,95,100,105,110,115,120],{"head":74,"id":76,"type":77,"uuid":78,"symbolIds":79},{"lang":75,"title":22},"ja","1","page","a4b03344-5a71-489d-9e74-a3b730598206",[],{"head":81,"id":82,"type":77,"uuid":83,"symbolIds":84},{"lang":75,"title":22},"2","3d3bdf57-29fe-4c00-a534-10e5cce26d80",[],{"head":86,"id":87,"type":77,"uuid":88,"symbolIds":89},{"lang":75,"title":22},"3","ca9f1a96-0071-450e-b2bd-7a2bcd1a8fe6",[],{"head":91,"id":92,"type":77,"uuid":93,"symbolIds":94},{"lang":75,"title":22},"4","645f0b24-2c74-42ad-bcaf-a0d30d200be0",[],{"head":96,"id":97,"type":77,"uuid":98,"symbolIds":99},{"lang":75,"title":22},"5","b3b1e7d9-9cf3-4f7e-afff-82f94411023a",[],{"head":101,"id":102,"type":77,"uuid":103,"symbolIds":104},{"lang":75,"title":22},"5-1","d303f906-9f72-4e33-b7f3-77878a627e24",[],{"head":106,"id":107,"type":77,"uuid":108,"symbolIds":109},{"lang":75,"title":22},"5-2","99401c48-d4cf-41b4-a899-5f90caa1373d",[],{"head":111,"id":112,"type":77,"uuid":113,"symbolIds":114},{"lang":75,"title":22},"5-3","4caca999-cb7d-46ac-b767-6425fe27a50d",[],{"head":116,"id":117,"type":77,"uuid":118,"symbolIds":119},{"lang":75,"title":22},"5-5","476b28b0-36d6-47f4-83c3-455b02c6d577",[],{"head":121,"id":122,"type":77,"uuid":123,"symbolIds":124},{"lang":75,"title":22},"5-4","5ecf939c-c154-446e-aa26-880a8b1847b2",[],{"rssList":126,"apiList":127,"cmsProjectId":22},[],[],[],{"fontFamily":130},[],{"fontFamily":132},[133,135,138],{"key":134,"name":22,"value":38},"209a6c7b",{"key":136,"name":22,"value":137},"37a49e23","'Beau Rivage'",{"key":139,"name":22,"value":140},"08aa3cb7","'Permanent Marker'",[],{},["Map"],{"googleFontMap":145,"typesquareLoaded":13},["Map"]]</script>
+    <script type="application/json" id="__NUXT_DATA__" data-ssr="true">[["Reactive",1],{"data":2,"state":4,"_errors":5,"serverRendered":6,"path":7,"pinia":8},{"dynamicData":3},null,{},{"dynamicData":3},true,"/",{"cmsContentStore":9,"indexStore":14,"projectStore":17,"productStore":26,"pageHeadStore":144},{"referenceMap":10,"listContentsMap":11,"contentMap":12,"clientLoaded":13},["Map"],["Map"],["Map"],false,{"routeType":15,"host":16},"publish","salmon992750.studio.site",{"project":18},{"id":19,"name":20,"type":21,"customDomain":22,"iconImage":22,"coverImage":3,"displayBadge":6,"integrations":23,"snapshot_path":24,"snapshot_id":25,"recaptchaSiteKey":-1},"xmaZvM1kaR","First project","web","",[],"https://storage.googleapis.com/studio-publish/projects/xmaZvM1kaR/ROn59benWA/","ROn59benWA",{"product":27,"isLoaded":6,"selectedModalIds":141,"redirectPage":3,"isInitializedRSS":13,"pageViewMap":142,"symbolViewMap":143},{"breakPoints":28,"colors":35,"fonts":36,"head":63,"info":65,"pages":72,"resources":125,"symbols":128,"style":129,"styleVars":131,"enablePassword":13},[29,32],{"maxWidth":30,"name":31},480,"mobile",{"maxWidth":33,"name":34},768,"tablet",[],[37,54,59],{"family":38,"subsets":39,"variants":42,"vendor":53},"Lato",[40,41],"latin","latin-ext",[43,44,45,46,47,48,49,50,51,52],"100","100italic","300","300italic","regular","italic","700","700italic","900","900italic","google",{"family":55,"subsets":56,"variants":58,"vendor":53},"Beau Rivage",[40,41,57],"vietnamese",[47],{"family":60,"subsets":61,"variants":62,"vendor":53},"Permanent Marker",[40],[47],{"favicon":22,"meta":64,"title":22},{"description":22,"og:image":22},{"baseWidth":66,"created_at":67,"screen":68,"type":21,"updated_at":70,"version":71},1280,1518591100346,{"height":69,"isAutoHeight":13,"width":66,"workingState":13},600,1518792996878,"4.1.3",[73,80,85,90,95,100,105,110,115,120],{"head":74,"id":76,"type":77,"uuid":78,"symbolIds":79},{"lang":75,"title":22},"ja","1","page","a4b03344-5a71-489d-9e74-a3b730598206",[],{"head":81,"id":82,"type":77,"uuid":83,"symbolIds":84},{"lang":75,"title":22},"2","3d3bdf57-29fe-4c00-a534-10e5cce26d80",[],{"head":86,"id":87,"type":77,"uuid":88,"symbolIds":89},{"lang":75,"title":22},"3","ca9f1a96-0071-450e-b2bd-7a2bcd1a8fe6",[],{"head":91,"id":92,"type":77,"uuid":93,"symbolIds":94},{"lang":75,"title":22},"4","645f0b24-2c74-42ad-bcaf-a0d30d200be0",[],{"head":96,"id":97,"type":77,"uuid":98,"symbolIds":99},{"lang":75,"title":22},"5","b3b1e7d9-9cf3-4f7e-afff-82f94411023a",[],{"head":101,"id":102,"type":77,"uuid":103,"symbolIds":104},{"lang":75,"title":22},"5-1","d303f906-9f72-4e33-b7f3-77878a627e24",[],{"head":106,"id":107,"type":77,"uuid":108,"symbolIds":109},{"lang":75,"title":22},"5-2","99401c48-d4cf-41b4-a899-5f90caa1373d",[],{"head":111,"id":112,"type":77,"uuid":113,"symbolIds":114},{"lang":75,"title":22},"5-3","4caca999-cb7d-46ac-b767-6425fe27a50d",[],{"head":116,"id":117,"type":77,"uuid":118,"symbolIds":119},{"lang":75,"title":22},"5-5","476b28b0-36d6-47f4-83c3-455b02c6d577",[],{"head":121,"id":122,"type":77,"uuid":123,"symbolIds":124},{"lang":75,"title":22},"5-4","5ecf939c-c154-446e-aa26-880a8b1847b2",[],{"rssList":126,"apiList":127,"cmsProjectId":22},[],[],[],{"fontFamily":130},[],{"fontFamily":132},[133,135,138],{"key":134,"name":22,"value":38},"209a6c7b",{"key":136,"name":22,"value":137},"37a49e23","'Beau Rivage'",{"key":139,"name":22,"value":140},"08aa3cb7","'Permanent Marker'",[],{},["Map"],{"googleFontMap":145,"typesquareLoaded":13},["Map"]]</script>
     <script>
         window.__NUXT__ = {};
         window.__NUXT__.config = {

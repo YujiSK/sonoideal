@@ -28,6 +28,7 @@
     <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.98e755a8.js">
     <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.fd97a95f.js">
     <link rel="stylesheet" href="/_nuxt/entry.cbb71623.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .page-enter-active {
             transition: .6s cubic-bezier(.4, .4, 0, 1)
