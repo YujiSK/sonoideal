@@ -1,5 +1,5 @@
 <html lang="ja">
-    
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,15 +20,10 @@
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/4">
-    <link rel="modulepreload" as="script" crossorigin="" href="/_nuxt/entry.a32d69e7.js">
-    <link rel="preload" as="style" href="/_nuxt/entry.cbb71623.css">
-    <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/close_circle.c7480f3c.svg">
-    <link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/round_check.0ebac23f.svg">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/LottieRenderer.81156164.js">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-404.98e755a8.js">
-    <link rel="prefetch" as="script" crossorigin="" href="/_nuxt/error-500.fd97a95f.js">
-    <link rel="stylesheet" href="/_nuxt/entry.cbb71623.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+
+    @vite('resources/css/app.css')
+
     <style>
         .page-enter-active {
             transition: .6s cubic-bezier(.4, .4, 0, 1)
@@ -353,36 +348,33 @@
     </style>
     <style>
         .sd {
+            display: flex;
             flex-wrap: nowrap;
             max-width: 100%;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
             pointer-events: all;
             z-index: 0;
             -webkit-overflow-scrolling: touch;
-            align-content: center;
-            align-items: center;
-            display: flex;
-            flex: none;
-            flex-direction: column;
-            position: relative
         }
 
         .sd::-webkit-scrollbar {
-            display: none
+            display: none;
         }
 
         .sd,
         .sd.richText * {
-            transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11
+            transition-property: all, --g-angle, --g-color-0, --g-position-0, --g-color-1, --g-position-1, --g-color-2, --g-position-2, --g-color-3, --g-position-3, --g-color-4, --g-position-4, --g-color-5, --g-position-5, --g-color-6, --g-position-6, --g-color-7, --g-position-7, --g-color-8, --g-position-8, --g-color-9, --g-position-9, --g-color-10, --g-position-10, --g-color-11, --g-position-11;
         }
 
         .sd[tabindex]:focus {
-            outline: none
+            outline: none;
         }
 
         .sd[tabindex]:focus-visible {
-            outline: 1px solid;
-            outline-color: Highlight;
-            outline-color: -webkit-focus-ring-color
+            outline: 1px solid Highlight;
         }
 
         input[type=email],
@@ -390,76 +382,76 @@
         input[type=text],
         select,
         textarea {
-            -webkit-appearance: none
+            -webkit-appearance: none;
         }
 
         select {
-            cursor: pointer
+            cursor: pointer;
         }
 
         .frame {
             display: block;
-            overflow: hidden
+            overflow: hidden;
         }
 
         .frame>iframe {
             height: 100%;
-            width: 100%
+            width: 100%;
         }
 
         .frame .formrun-embed>iframe:not(:first-child) {
-            display: none !important
+            display: none !important;
         }
 
         .image {
-            position: relative
+            position: relative;
         }
 
         .image:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
             background-position: 50%;
             background-size: cover;
             border-radius: inherit;
-            content: "";
-            height: 100%;
-            left: 0;
             pointer-events: none;
-            position: absolute;
-            top: 0;
             transition: inherit;
-            width: 100%;
-            z-index: -2
         }
 
         .sd.file {
-            cursor: pointer;
+            display: flex;
             flex-direction: row;
+            cursor: pointer;
             outline: 2px solid transparent;
             outline-offset: -1px;
             overflow-wrap: anywhere;
-            word-break: break-word
+            word-break: break-word;
         }
 
         .sd.file:focus-within {
             outline-color: Highlight;
-            outline-color: -webkit-focus-ring-color
         }
 
         .file>input[type=file] {
+            position: absolute;
             opacity: 0;
             pointer-events: none;
-            position: absolute
         }
 
         .sd.icon,
         .sd.text {
+            display: flex;
             align-content: center;
             align-items: center;
-            display: flex;
-            flex-direction: row;
             justify-content: center;
+            flex-direction: row;
             overflow: visible;
             overflow-wrap: anywhere;
-            word-break: break-word
+            word-break: break-word;
         }
 
         .material-icons {
@@ -475,36 +467,36 @@
             word-wrap: normal;
             direction: ltr;
             text-rendering: optimizeLegibility;
-            -webkit-font-smoothing: antialiased
+            -webkit-font-smoothing: antialiased;
         }
 
         a,
         a.icon,
         a.text {
-            -webkit-tap-highlight-color: rgba(0, 0, 0, .15)
+            -webkit-tap-highlight-color: rgba(0, 0, 0, .15);
         }
 
         .fixed {
-            z-index: 2
+            z-index: 2;
         }
 
         .button {
-            transition: .4s cubic-bezier(.4, .4, 0, 1)
+            transition: .4s cubic-bezier(.4, .4, 0, 1);
         }
 
         .button,
         .link {
-            cursor: pointer
+            cursor: pointer;
         }
 
         .submitLoading {
             opacity: .5 !important;
-            pointer-events: none !important
+            pointer-events: none !important;
         }
 
         .richText {
             display: block;
-            word-break: break-word
+            word-break: break-word;
         }
 
         .richText [data-thread],
@@ -537,493 +529,170 @@
             font-weight: inherit;
             letter-spacing: inherit;
             line-height: inherit;
-            text-align: inherit
+            text-align: inherit;
         }
 
         .richText p {
             display: block;
-            margin: 10px 0
-        }
-
-        .richText>p {
-            min-height: 1em
+            margin: 10px 0;
+            min-height: 1em;
         }
 
         .richText img {
-            height: auto;
             max-width: 100%;
-            vertical-align: bottom
+            height: auto;
+            vertical-align: bottom;
         }
 
-        .richText h1 {
-            display: block;
-            font-size: 3em;
-            font-weight: 700;
-            margin: 20px 0
-        }
-
-        .richText h2 {
-            font-size: 2em
-        }
-
+        .richText h1,
         .richText h2,
-        .richText h3 {
-            display: block;
-            font-weight: 700;
-            margin: 10px 0
-        }
-
-        .richText h3 {
-            font-size: 1em
-        }
-
-        .richText h4,
-        .richText h5 {
-            font-weight: 600
-        }
-
+        .richText h3,
         .richText h4,
         .richText h5,
         .richText h6 {
             display: block;
+            margin: 10px 0;
+        }
+
+        .richText h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+
+        .richText h2 {
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .richText h3 {
             font-size: 1em;
-            margin: 10px 0
+            font-weight: 700;
+        }
+
+        .richText h4,
+        .richText h5 {
+            font-weight: 600;
+            font-size: 1em;
         }
 
         .richText h6 {
-            font-weight: 500
+            font-weight: 500;
+            font-size: 1em;
         }
 
         .richText [data-type=table] {
-            overflow-x: auto
+            overflow-x: auto;
         }
 
         .richText [data-type=table] p {
+            word-break: break-all;
             white-space: pre-line;
-            word-break: break-all
         }
 
         .richText table {
-            border: 1px solid #f2f2f2;
+            margin: 10px 0;
             border-collapse: collapse;
             border-spacing: unset;
-            color: #1a1a1a;
+            border: 1px solid #f2f2f2;
+            table-layout: auto;
             font-size: 14px;
             line-height: 1.4;
-            margin: 10px 0;
-            table-layout: auto
+            color: #1a1a1a;
         }
 
         .richText table tr th {
-            background: hsla(0, 0%, 96%, .5)
+            background: hsla(0, 0%, 96%, .5);
         }
 
-        .richText table tr td,
-        .richText table tr th {
+        .richText table tr th,
+        .richText table tr td {
+            padding: 12px;
             border: 1px solid #f2f2f2;
             max-width: 240px;
             min-width: 100px;
-            padding: 12px
         }
 
-        .richText table tr td p,
-        .richText table tr th p {
-            margin: 0
+        .richText table tr th p,
+        .richText table tr td p {
+            margin: 0;
         }
 
         .richText blockquote {
-            border-left: 3px solid rgba(0, 0, 0, .15);
             font-style: italic;
             margin: 10px 0;
-            padding: 10px 15px
+            padding: 10px 15px;
+            border-left: 3px solid rgba(0, 0, 0, .15);
         }
 
         .richText [data-type=embed_code] {
             margin: 20px 0;
-            position: relative
+            position: relative;
         }
 
         .richText [data-type=embed_code]>.height-adjuster>.wrapper {
-            position: relative
+            position: relative;
         }
 
-        .richText [data-type=embed_code]>.height-adjuster>.wrapper[style*=padding-top] iframe {
-            height: 100%;
-            left: 0;
+        .richText [data-type=embed_code]>.height-adjuster>.wrapper[style*=padding-top] iframe,
+        .richText [data-type=embed_code][data-embed-code-type=instagram]>.height-adjuster>.wrapper[style*=padding-top] blockquote,
+        .richText [data-type=embed_code][data-embed-code-type=codepen]>.height-adjuster>.wrapper iframe,
+        .richText [data-type=embed_code][data-embed-code-type=slideshare]>.height-adjuster>.wrapper iframe,
+        .richText [data-type=embed_code][data-embed-code-type=speakerdeck]>.height-adjuster>.wrapper iframe,
+        .richText [data-type=embed_code][data-embed-code-type=snapwidget]>.height-adjuster>.wrapper iframe {
             position: absolute;
             top: 0;
-            width: 100%
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
 
         .richText [data-type=embed_code][data-embed-sandbox=true] {
             display: block;
-            overflow: hidden
+            overflow: hidden;
         }
 
         .richText [data-type=embed_code][data-embed-code-type=instagram]>.height-adjuster>.wrapper[style*=padding-top] {
-            padding-top: 100%
+            padding-top: 50px !important;
         }
 
         .richText [data-type=embed_code][data-embed-code-type=instagram]>.height-adjuster>.wrapper[style*=padding-top] blockquote {
-            height: 100%;
-            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .richText .video>.height-adjuster>div {
+            position: relative;
+            display: block;
             overflow: hidden;
+        }
+
+        .richText .video>.height-adjuster>div:before {
+            content: "";
+            display: block;
+            padding-top: 56.25%;
+        }
+
+        .richText .video>.height-adjuster>div>iframe,
+        .richText .video>.height-adjuster>div>object,
+        .richText .video>.height-adjuster>div>video {
             position: absolute;
             top: 0;
-            width: 100%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=codepen]>.height-adjuster>.wrapper {
-            padding-top: 50%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=codepen]>.height-adjuster>.wrapper iframe {
-            height: 100%;
             left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=slideshare]>.height-adjuster>.wrapper {
-            padding-top: 56.25%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=slideshare]>.height-adjuster>.wrapper iframe {
+            width: 100%;
             height: 100%;
-            left: 0;
-            position: absolute;
+        }
+
+        .richText .video[data-provider=kaltura] iframe {
+            position: relative;
             top: 0;
-            width: 100%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=speakerdeck]>.height-adjuster>.wrapper {
-            padding-top: 56.25%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=speakerdeck]>.height-adjuster>.wrapper iframe {
+            left: 0;
+            width: 100%;
             height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=snapwidget]>.height-adjuster>.wrapper {
-            padding-top: 30%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=snapwidget]>.height-adjuster>.wrapper iframe {
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%
-        }
-
-        .richText [data-type=embed_code][data-embed-code-type=firework]>.height-adjuster>.wrapper fw-embed-feed {
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none
-        }
-
-        .richText [data-type=embed_code_empty] {
-            display: none
-        }
-
-        .richText ul {
-            margin: 0 0 0 20px
-        }
-
-        .richText ul li {
-            list-style: disc;
-            margin: 10px 0
-        }
-
-        .richText ul li p {
-            margin: 0
-        }
-
-        .richText ol {
-            margin: 0 0 0 20px
-        }
-
-        .richText ol li {
-            list-style: decimal;
-            margin: 10px 0
-        }
-
-        .richText ol li p {
-            margin: 0
-        }
-
-        .richText hr {
-            border-top: 1px solid #ccc;
-            margin: 10px 0
-        }
-
-        .richText p>code {
-            background: #eee;
-            border: 1px solid rgba(0, 0, 0, .1);
-            border-radius: 6px;
-            display: inline;
-            margin: 2px;
-            padding: 0 5px
-        }
-
-        .richText pre {
-            background: #eee;
-            border-radius: 6px;
-            font-family: Menlo, Monaco, Courier New, monospace;
-            margin: 20px 0;
-            padding: 25px 35px;
-            white-space: pre-wrap
-        }
-
-        .richText pre code {
-            border: none;
-            padding: 0
-        }
-
-        .richText strong {
-            color: inherit;
-            display: inline;
-            font-family: inherit;
-            font-weight: 900
-        }
-
-        .richText em {
-            font-style: italic
-        }
-
-        .richText a,
-        .richText u {
-            text-decoration: underline
-        }
-
-        .richText a {
-            color: #007cff;
-            display: inline
-        }
-
-        .richText s {
-            text-decoration: line-through
-        }
-
-        .richText [data-type=table_of_contents] {
-            background-color: #f5f5f5;
-            border-radius: 2px;
-            color: #616161;
-            font-size: 16px;
-            list-style: none;
-            margin: 0;
-            padding: 24px 24px 8px;
-            text-decoration: underline
-        }
-
-        .richText [data-type=table_of_contents] .toc_list {
-            margin: 0
-        }
-
-        .richText [data-type=table_of_contents] .toc_item {
-            color: currentColor;
-            font-size: inherit !important;
-            font-weight: inherit;
-            list-style: none
-        }
-
-        .richText [data-type=table_of_contents] .toc_item>a {
-            border: none;
-            color: currentColor;
-            font-size: inherit !important;
-            font-weight: inherit;
-            text-decoration: none
-        }
-
-        .richText [data-type=table_of_contents] .toc_item>a:hover {
-            opacity: .7
-        }
-
-        .richText [data-type=table_of_contents] .toc_item--1 {
-            margin: 0 0 16px
-        }
-
-        .richText [data-type=table_of_contents] .toc_item--2 {
-            margin: 0 0 16px;
-            padding-left: 2rem
-        }
-
-        .richText [data-type=table_of_contents] .toc_item--3 {
-            margin: 0 0 16px;
-            padding-left: 4rem
-        }
-
-        .sd.section {
-            align-content: center !important;
-            align-items: center !important;
-            flex-direction: column !important;
-            flex-wrap: nowrap !important;
-            height: auto !important;
-            max-width: 100% !important;
-            padding: 0 !important;
-            width: 100% !important
-        }
-
-        .sd.section-inner {
-            position: static !important
-        }
-
-        @property --g-angle {
-            syntax: "<angle>";
-            inherits: false;
-            initial-value: 180deg
-        }
-
-        @property --g-color-0 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-0 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: .01%
-        }
-
-        @property --g-color-1 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-1 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-2 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-2 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-3 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-3 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-4 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-4 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-5 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-5 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-6 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-6 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-7 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-7 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-8 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-8 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-9 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-9 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-10 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-10 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
-        }
-
-        @property --g-color-11 {
-            syntax: "<color>";
-            inherits: false;
-            initial-value: transparent
-        }
-
-        @property --g-position-11 {
-            syntax: "<percentage>";
-            inherits: false;
-            initial-value: 100%
         }
     </style>
-    <link href="chrome-extension://accllpimnoffllpeblphooameaofhnah/css/content.css" rel="stylesheet" type="text/css">
+
     <style>
         a[data-v-2a07820f] {
             align-content: center;
@@ -1930,7 +1599,6 @@
             }
         }
     </script>
-    <script type="module" src="/_nuxt/entry.a32d69e7.js" crossorigin=""></script>
     <deepl-input-controller></deepl-input-controller>
 </body>
 <div style="all: initial !important;"></div>
