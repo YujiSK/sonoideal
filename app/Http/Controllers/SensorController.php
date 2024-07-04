@@ -30,16 +30,16 @@ class SensorController extends Controller
 
     public function home()
     {
-        $new = Sensor::select('temperature', 'humidity')
+        $sensor_data = Sensor::select('temperature', 'humidity')
             ->orderBy('created_at', 'desc')
             ->first();
 
         // 取得したデータを配列として整形
         $data = [
-            'temperature' => $new->temperature,
-            'humidity' => $new->humidity
+            'temperature' => $sensor_data->temperature,
+            'humidity' => $sensor_data->humidity
         ];
 
-        return view('home', compact('data'));
+        return view('home', ['sensor_data' => $sensor_data]);
     }
 }
