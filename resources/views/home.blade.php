@@ -20,8 +20,9 @@
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/4">
-    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
-
+    
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}
+    @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
     @vite('resources/css/app.css')
     @vite('resources/sass/app.scss')
 
@@ -1495,7 +1496,7 @@
                                 <div data-s-574f9cb8-0747-4432-8d63-e2780f8b301a="" class="sd appear">
                                     <p data-s-c650a751-ce3c-4957-b2bb-c90416f8bfe3=""
                                         data-r-0_0_0_c650a751-ce3c-4957-b2bb-c90416f8bfe3="" class="text sd appear">
-                                        sono Ideal</p>
+                                        Sono Ideal</p>
                                     <p data-s-813130a7-b013-49e4-ab40-923c54f7a71c=""
                                         data-r-1_0_0_813130a7-b013-49e4-ab40-923c54f7a71c="" class="text sd appear">
                                         <p class="text-white"> {{ now()->format('Y年m月d日');}} <br></p>
