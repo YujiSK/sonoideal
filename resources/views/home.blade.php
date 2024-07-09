@@ -20,8 +20,8 @@
     <link rel="icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/4">
-    
-    {{-- <script src="https://cdn.tailwindcss.com"></script> --}
+
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
     @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
     @vite('resources/css/app.css')
     @vite('resources/sass/app.scss')
