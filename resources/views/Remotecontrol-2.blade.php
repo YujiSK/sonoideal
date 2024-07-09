@@ -1515,7 +1515,7 @@
                                 <div data-s-92bf5994-f85c-45da-a8a3-8e0ddd84884f="" class="sd appear"><a
                                         data-s-f6a09ba2-a741-4aa9-8532-2584e4f4ba70=""
                                         data-r-0_0_0_f6a09ba2-a741-4aa9-8532-2584e4f4ba70=""
-                                        class="text link sd appear">sono Ideal</a>
+                                        class="text link sd appear">Sono Ideal</a>
                                     <p data-s-f8b9db2e-4d57-4f99-a599-71abc24a5d05=""
                                         data-r-1_0_0_f8b9db2e-4d57-4f99-a599-71abc24a5d05="" class="text sd appear">
                                         リモコン登録中. . .<br></p>

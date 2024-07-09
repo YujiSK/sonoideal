@@ -1616,7 +1616,7 @@
                                     <div data-s-8a8b82fa-b6d4-43b2-b138-06f9346fe055="" class="sd appear"><a
                                             href="{{ route('home') }}" data-s-bad1348d-7cf1-4492-9f67-382770262b30=""
                                             data-r-0_0_0_0_bad1348d-7cf1-4492-9f67-382770262b30=""
-                                            class="text link sd appear">sono Ideal</a><a href="{{ route('setting') }}"
+                                            class="text link sd appear">Sono Ideal</a><a href="{{ route('setting') }}"
                                             data-s-6c9f17aa-15ec-4a49-aa0c-33b896f033f6=""
                                             class="icon material-icons link sd appear">settings</a></div>
                                     <p data-s-02fefeb1-65f4-4743-a3b9-bbe1b8526fc8=""

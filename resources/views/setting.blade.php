@@ -1648,7 +1648,7 @@
                                     <div data-s-15c4e58a-3a82-4cac-b778-d3a78bf250e1="" class="sd appear"><a
                                             href="{{ route('home') }}" data-s-581bfdc1-d342-412b-90ad-e4c9b298046a=""
                                             data-r-0_0_0_0_581bfdc1-d342-412b-90ad-e4c9b298046a=""
-                                            class="text link sd appear">sono Ideal</a></div>
+                                            class="text link sd appear">Sono Ideal</a></div>
                                     <p data-s-3141ca89-4fba-4254-8fed-d972d5fe720a=""
                                         data-r-1_0_0_3141ca89-4fba-4254-8fed-d972d5fe720a="" class="text sd appear">
                                         詳細設定</p>

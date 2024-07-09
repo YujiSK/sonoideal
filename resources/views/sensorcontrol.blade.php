@@ -1910,7 +1910,7 @@
                                 <div data-s-4a29df09-1fad-4ecf-82c3-654d1d63c86b="" class="sd appear"><a href="{{ route('home') }}"
                                         data-s-35b2485f-685f-466f-8d42-c32e02f4f592=""
                                         data-r-0_0_0_35b2485f-685f-466f-8d42-c32e02f4f592=""
-                                        class="text link sd appear">sono Ideal</a><a href="{{ route('setting') }}"
+                                        class="text link sd appear">Sono Ideal</a><a href="{{ route('setting') }}"
                                         data-s-df027775-8d76-4ec6-a1b4-a1ecfd3aa54a=""
                                         class="icon material-icons link sd appear">settings</a></div>
                                 <p data-s-6e2c5453-8f8b-4b72-86b4-03e69b859a3a=""
