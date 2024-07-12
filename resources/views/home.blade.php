@@ -25,6 +25,7 @@
     @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
     @vite('resources/css/app.css')
     @vite('resources/sass/app.scss')
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         .page-enter-active {
@@ -1376,6 +1377,7 @@
                         height: 160px;
                         width: 200px;
                         max-width: 100%;
+                        border-bottom:double;
                     }
 
                     @media screen and (max-width: 480px) {
@@ -1383,8 +1385,9 @@
                             background: rgb(255, 255, 255);
                             height: 1px;
                             margin: 10px 0px 0px 0px;
-                            width: 370px;
+                            width: 340px;
                             max-width: 100%;
+                            border-bottom: double;
                         }
                     }
 
@@ -1504,7 +1507,7 @@
                                         data-r-2_0_0_b21045d0-935b-4d48-b398-d48887c06796="" class="text sd appear">
                                         温度{{ (int)$data['temperature'] }}℃｜湿度{{ (int)$data['humidity'] }}％</p>
                                     <div data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1="" class="sd appear">
-                                        <div data-s-f753dbff-6297-4a70-b932-4a46edf09299="" class="sd appear">
+                                        <div data-s-f753dbff-6297-4a70-b932-4a46edf09299="" class="switch-house sd appear">
                                             <div data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67="" class="sd appear"><i
                                                     data-s-0278ccc8-f701-4f5d-b528-c6e6d09b94ef=""
                                                     class="icon fa-solid fa-house sd appear"></i><i
@@ -1519,7 +1522,7 @@
                                         </div>
                                         <div data-s-d1f79e10-0558-4183-a655-6cce7710d1ab="" class="sd appear"></div>
                                         <div data-s-7ed8d73f-3fb6-462b-8ad4-079c4ed82e54="" class="sd appear">
-                                            <div data-s-0601f4e4-d286-4bee-adf2-aece3bf7b076="" class="sd appear">
+                                            <div data-s-0601f4e4-d286-4bee-adf2-aece3bf7b076="" class="switch-hotel sd appear">
                                                 <div data-s-e8d4bd72-d4f3-4b56-a1c0-352f04175ea6="" class="sd appear">
                                                     <i data-s-8115fcac-19ea-4c68-bd7e-84c0ea8472f4=""
                                                         class="icon material-icons sd appear">hotel</i><i
@@ -1604,5 +1607,30 @@
     <deepl-input-controller></deepl-input-controller>
 </body>
 <div style="all: initial !important;"></div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+    // Switch house icons
+    $('.switch-house').click(function() {
+        house = $(this).find('.fa-house');
+        mountain = $(this).find('.fa-mountain-city');
+        $(house).toggleClass('fa-house fa-mountain-city');
+        $(mountain).toggleClass('fa-house fa-mountain-city');
+    });
+
+    // Switch hotel icons
+    $('.switch-hotel').click(function() {
+        let icons = $(this).find('.icon.material-icons.sd.appear');
+        $(icons).each(function(index, icon) {
+            if ($(icon).text() == 'hotel') {
+                $(icon).text('directions_run');
+            } else if ($(icon).text() == 'directions_run') {
+                $(icon).text('hotel');
+            }
+        });
+    });
+});
+</script>
 
 </html>
