@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-class Sensor:
+class SensorData:
     def __init__(self, base_url):
         self.base_url = base_url
         self.session = requests.Session()
@@ -38,7 +38,7 @@ class Sensor:
 def main():
     try:
         base_url = "https://sonoideal.net/raspi"
-        sensor_sender = Sensor(base_url)
+        sensor_sender = SensorData(base_url)
 
         # データを送信
         response = sensor_sender.send_TRH(25.3, 60.5)
