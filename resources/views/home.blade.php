@@ -21,10 +21,7 @@
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/4">
 
-    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
-    @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
-    @vite('resources/css/app.css')
-    @vite('resources/sass/app.scss')
+    @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -695,7 +692,6 @@
             height: 100%;
         }
     </style>
-
     <style>
         a[data-v-2a07820f] {
             align-content: center;
