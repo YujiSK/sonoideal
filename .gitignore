@@ -16,3 +16,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/resources/arduino/libraries
+/resources/python/__pycache__

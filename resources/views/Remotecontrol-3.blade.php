@@ -1524,7 +1524,7 @@
                                     <div data-s-ab6dfd00-dc8d-455c-8ae3-f3e4d3dd34e6="" class="sd appear"><a
                                             href="{{ route('home') }}" data-s-8c4d969e-c615-4891-bc11-c789c503ab6e=""
                                             data-r-0_0_0_0_8c4d969e-c615-4891-bc11-c789c503ab6e=""
-                                            class="text link sd appear">sono Ideal</a><a href="{{ route('setting') }}"
+                                            class="text link sd appear">Sono Ideal</a><a href="{{ route('setting') }}"
                                             data-s-7f03b53a-c060-4d79-b4b1-6bbb953268f3=""
                                             class="icon material-icons link sd appear">settings</a></div>
                                     <p data-s-5045de1c-74fa-4c5d-ab91-d38e3d570b81=""

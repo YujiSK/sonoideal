@@ -13,6 +13,11 @@ export default defineConfig({
         https: true,
     },
     build: {
-        assetsDir: 'assets'
+        rollupOptions: {
+            output: {
+                assetFileNames: 'assets/[name]-[hash][extname]',
+            },
+        },
+        assetsDir: 'assets',
     }
 });
