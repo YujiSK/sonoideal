@@ -3,21 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Sensor;
+use App\Models\SensorData;
 use App\Models\Initialization;
 
 class SensorController extends Controller
 {
     public function index()
     {
-        $sensor_data = Sensor::orderBy('created_at', 'desc')->take(10)->get();
-        return view('raspi.sensor.index', ['sensor_data' => $sensor_data]);
+        $sensor_datas = SensorData::orderBy('created_at', 'desc')->take(10)->get();
+        return view('raspi.sensor.index', ['sensor_datas' => $sensor_datas]);
     }
 
     public function store(Request $request)
     {
         try {
-            $sensorData = new Sensor();
+            $sensorData = new SensorData();
             $sensorData->temperature = $request->temperature;
             $sensorData->humidity = $request->humidity;
             $sensorData->save();
@@ -29,7 +29,7 @@ class SensorController extends Controller
 
     public function home()
     {
-        $sensor_data = Sensor::select('temperature', 'humidity')->orderBy('created_at', 'desc')->first();
+        $sensor_data = SensorData::select('temperature', 'humidity')->orderBy('created_at', 'desc')->first();
 
         $data = [
             'temperature' => $sensor_data->temperature,
@@ -41,8 +41,20 @@ class SensorController extends Controller
 
     public function manualcontrol()
     {
-        $init = Initialization::select('*')->orderBy('id', 'desc')->first();
+        $init = Initialization::select('*')
+        ->where('type', 1)
+        ->orderBy('id', 'desc')
+        ->first();
         return view('manualcontrol', ['init' => $init]);
+    }
+
+    public function sensorcontrol()
+    {
+        $init = Initialization::select('*')
+        ->where('type', 2)
+        ->orderBy('id', 'desc')
+        ->first();
+        return view('sensorcontrol', ['init' => $init]);
     }
 
     public function initialization(Request $request)

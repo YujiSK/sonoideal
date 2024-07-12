@@ -21,7 +21,10 @@
     <link rel="apple-touch-icon" type="image/png" href="https://storage.googleapis.com/studio-front/favicon.png">
     <link rel="canonical" href="https://salmon992750.studio.site/4">
 
-    @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+    @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
+    @vite('resources/css/app.css')
+    @vite('resources/sass/app.scss')
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -692,6 +695,7 @@
             height: 100%;
         }
     </style>
+
     <style>
         a[data-v-2a07820f] {
             align-content: center;
@@ -1498,10 +1502,10 @@
                                         Sono Ideal</p>
                                     <p data-s-813130a7-b013-49e4-ab40-923c54f7a71c=""
                                         data-r-1_0_0_813130a7-b013-49e4-ab40-923c54f7a71c="" class="text sd appear">
-                                        <p class="text-white"> {{ now()->format('Y年m月d日');}} <br></p>
+                                    <p class="text-white"> {{ now()->format('Y年m月d日') }} <br></p>
                                     <p data-s-b21045d0-935b-4d48-b398-d48887c06796=""
                                         data-r-2_0_0_b21045d0-935b-4d48-b398-d48887c06796="" class="text sd appear">
-                                        温度{{ (int)$data['temperature'] }}℃｜湿度{{ (int)$data['humidity'] }}％</p>
+                                        温度{{ (int) $data['temperature'] }}℃｜湿度{{ (int) $data['humidity'] }}％</p>
                                     <div data-s-fd116922-4476-4204-9bb0-1d9ef16b40d1="" class="sd appear">
                                         <div data-s-f753dbff-6297-4a70-b932-4a46edf09299="" class="switch-house sd appear">
                                             <div data-s-3d522929-8bb4-43aa-9f5f-6be0977e2d67="" class="sd appear"><i
@@ -1529,19 +1533,22 @@
                                                     <i data-s-4de8df47-1aaf-429d-aace-9bb3010d645e=""
                                                         class="icon material-icons sd appear">call_missed_outgoing</i><i
                                                         data-s-3ad9208d-77a0-40e6-b978-6c3bb9a11bca=""
-                                                        class="icon material-icons sd appear">directions_run</i></div>
+                                                        class="icon material-icons sd appear">directions_run</i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div data-s-55d25de1-1384-4f11-bb81-641a56805fbe="" class="sd appear"></div>
                                     <div data-s-e69f3636-5219-403c-ae24-164e43c92b71="" class="sd appear">
                                         <div data-s-efb5ba20-e9bb-4069-98fd-f047a2ceaa2e="" class="sd appear"><a
-                                                href="{{ route('manualcontrol') }}" data-s-629aa4d2-59bb-41ab-b871-3c713c50d2c5=""
+                                                href="{{ route('manualcontrol') }}"
+                                                data-s-629aa4d2-59bb-41ab-b871-3c713c50d2c5=""
                                                 data-r-0_0_5_0_0_629aa4d2-59bb-41ab-b871-3c713c50d2c5=""
                                                 class="text link sd appear">手動調整</a>
                                             <div data-s-0bdc6c11-0f71-464f-a5d5-a3215f9fb069="" class="sd appear">
                                             </div>
-                                        </div><a href="{{ route('setting') }}" data-s-e5e680b8-5a8b-4e70-8f17-064bc9c8f306=""
+                                        </div><a href="{{ route('setting') }}"
+                                            data-s-e5e680b8-5a8b-4e70-8f17-064bc9c8f306=""
                                             data-r-1_5_0_0_e5e680b8-5a8b-4e70-8f17-064bc9c8f306=""
                                             class="text link sd appear">詳細設定</a>
                                     </div>

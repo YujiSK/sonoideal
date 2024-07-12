@@ -17,8 +17,9 @@ use App\Http\Controllers\LineWebhookController;
 */
 
 require __DIR__.'/api.php';
+require __DIR__.'/infrared.php';
 
-Route::get('/', [SensorController::class, 'home'])->name('index');
+Route::get('/', [SensorController::class, 'index'])->name('index');
 
 Route::get('/login', function () {
     return view('login');
@@ -33,15 +34,13 @@ Route::get('/login-2', function () {
 Route::get('/home', [SensorController::class, 'home'])->name('home');
 
 Route::get('/manualcontrol', [SensorController::class, 'manualcontrol'])->name('manualcontrol');
-
+Route::get('/manualcontrol/post', [SensorController::class, 'initialization'])->name('init_manual');
+Route::get('/sensorcontrol', [SensorController::class, 'sensorcontrol'])->name('sensorcontrol');
 Route::get('/manualcontrol/post', [SensorController::class, 'initialization'])->name('init_manual');
 
 Route::get('/setting', function () {
     return view('setting');
 })->name('setting');
-Route::get('/sensorcontrol', function () {
-    return view('sensorcontrol');
-})->name('sensorcontrol');
 Route::get('/Remotecontrol-1', function () {
     return view('Remotecontrol-1');
 })->name('Remotecontrol-1');

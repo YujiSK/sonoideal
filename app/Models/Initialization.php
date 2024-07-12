@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Initialization extends Model
 {
     use HasFactory;
-    
-    protected $table = 'initialization';
+
+    protected $table = 'initializations';
     protected $fillable = ['temperature', 'humidity', 'light','type'];
 }
