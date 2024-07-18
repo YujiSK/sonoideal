@@ -35,13 +35,28 @@ class SensorData:
         except requests.exceptions.RequestException as e:
             raise ValueError(f"データの送信中にエラーが発生しました: {e}")
 
+    def get_init(self):
+        try:
+            headers = {
+                "X-CSRF-TOKEN": self.csrf_token,
+                "Content-Type": "application/json",
+            }
+            response = self.session.post(f"{self.base_url}/sensor/getInit", headers=headers)
+            response.raise_for_status()
+            print("Initial data: ", response.text)
+
+            return response
+        except requests.exceptions.RequestException as e:
+            raise ValueError(f"データの送信中にエラーが発生しました: {e}")
+
 def main():
     try:
         base_url = "https://sonoideal.net/raspi"
         sensor_sender = SensorData(base_url)
 
         # データを送信
-        response = sensor_sender.send_TRH(25.3, 60.5)
+        # response = sensor_sender.send_TRH(25.3, 60.5)
+        response = sensor_sender.get_init()
 
         # レスポンスのステータスコードと内容を表示
         print(f"Status Code: {response.status_code}")

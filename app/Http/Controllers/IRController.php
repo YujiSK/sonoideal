@@ -3,9 +3,41 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use GuzzleHttp\Client;
+
 
 class IRController extends Controller
 {
+    public function sendIR(Request $request)
+    {
+        $irData = $request->input('irData');
+        $raspberryPiUrl = 'http://raspberrypi.local/send-ir'; // Raspberry Piのアドレス
+
+        $client = new Client();
+        $response = $client->post($raspberryPiUrl, [
+            'form_params' => ['irData' => $irData]
+        ]);
+
+        return response()->json(['status' => 'success']);
+    }
+
+    public function sendToArduino()
+    {
+        // 最新のデータをデータベースから取得
+        $data = DB::table('your_table_name')
+                  ->orderBy('created_at', 'desc')
+                  ->first();
+
+        // データをPythonに送信
+        $raspberryPiUrl = 'http://raspberrypi.local/send-to-arduino'; // Raspberry Piのアドレス
+        $client = new Client();
+        $response = $client->post($raspberryPiUrl, [
+            'form_params' => ['data' => json_encode($data)]
+        ]);
+
+        return response()->json(['status' => 'success']);
+    }
+
     // 10進数を16進数に変換し、バイナリ文字列を生成する関数
     private function decToBinaryString($num, $length)
     {
