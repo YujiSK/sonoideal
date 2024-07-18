@@ -42,19 +42,33 @@ class SensorController extends Controller
     public function manualcontrol()
     {
         $init = Initialization::select('*')
-        ->where('type', 1)
-        ->orderBy('id', 'desc')
-        ->first();
+            ->where('type', 1)
+            ->orderBy('id', 'desc')
+            ->first();
         return view('manualcontrol', ['init' => $init]);
     }
 
     public function sensorcontrol()
     {
         $init = Initialization::select('*')
-        ->where('type', 2)
-        ->orderBy('id', 'desc')
-        ->first();
+            ->where('type', 2)
+            ->orderBy('id', 'desc')
+            ->first();
         return view('sensorcontrol', ['init' => $init]);
+    }
+
+    public function getinit()
+    {
+        try {
+            $init = Initialization::select('*')
+                ->where('type', 2)
+                ->orderBy('id', 'desc')
+                ->first();
+
+            return response()->json([$init, 'message' => 'Data saved successfully'], 200);
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Failed to save data', 'message' => $e->getMessage()], 500);
+        }
     }
 
     public function initialization(Request $request)

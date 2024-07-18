@@ -24,4 +24,5 @@ Route::prefix('raspi')->group(function () {
         return response()->json(['message' => 'Hello! You are connected to Laravel!']);
     });
     Route::post('/sensor/store', [SensorController::class, 'store'])->name('sensor.store');
+    Route::post('/sensor/getInit', [SensorController::class, 'getInit'])->name('sensor.getInit');
 });
