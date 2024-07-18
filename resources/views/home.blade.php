@@ -22,7 +22,7 @@
     <link rel="canonical" href="https://salmon992750.studio.site/4">
 
     @vite(['resources/css/app.css', 'resources/sass/app.scss','resources/js/app.js'])
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
 
     <style>
         .page-enter-active {

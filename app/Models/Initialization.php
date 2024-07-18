@@ -9,6 +9,6 @@ class Initialization extends Model
 {
     use HasFactory;
 
-    protected $table = 'initializations';
+    protected $table = 'initialization';
     protected $fillable = ['temperature', 'humidity', 'light','type'];
 }

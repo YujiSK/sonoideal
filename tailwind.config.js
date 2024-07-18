@@ -10,8 +10,8 @@ module.exports = {
     theme: {
       extend: {},
     },
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-    },
+    plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+    ]
   }
